@@ -10,7 +10,7 @@ class car{
     getDetails(){
         return `${this.year} ${this.brand} ${this.model}`;
     }
-}
+} 
 class electricCar extends car{
     #batteryCapacity;
     constructor(brand, model, year, batteryCapacity){
