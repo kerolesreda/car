@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>class car{
+
+ class car{
     #brand;
     #model;
     #year;
@@ -30,6 +23,4 @@ class electricCar extends car{
     }
 }
 const myElectricCar = new electricCar('Tesla', 'Model S', 2022, 100);
-console.log(myElectricCar.getDetails());  </script>
-</body>
-</html> 
+console.log(myElectricCar.getDetails());  
